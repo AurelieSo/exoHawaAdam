@@ -58,15 +58,11 @@ h1 {
 
 
 .chiffresCarte {
-    font-size: 100px;
+    font-size: 7vw;
 }
 
 .textesCartes {
-    font-size: 40px;
-}
-
-.horaires {
-    font-weight: bold;
+    font-size: 3vw;
 }
 
 .interligne {
@@ -82,4 +78,18 @@ h1 {
         
     h2 {
         font-size: 4vw;
+    }
+
+    /* modif aure */
+    .bgcouleurCulture{
+        background-color: #35B3C2;
+    }
+
+    .bgcouleurLoisirs{
+        background-color:#AFCC34 ;
+
+    }
+
+    .cardHeight{
+height: 35rem;
     }
