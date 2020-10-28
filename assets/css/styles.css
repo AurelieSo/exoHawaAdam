@@ -58,7 +58,7 @@ h1 {
 
 
 .chiffresCarte {
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 .textesCartes {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .interligne {
-        line-height: 1em;
+        line-height: 3vw;
 
 }
 
@@ -90,6 +90,5 @@ h1 {
 
     }
 
-    .cardHeight{
-height: 35rem;
-    }
+ 
+   
