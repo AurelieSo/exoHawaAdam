@@ -1,0 +1,40 @@
+.bgfooter {
+    background-color: #01B5D6 ; 
+
+}
+
+.LobsterFont {
+    font-family: 'Lobster', cursive;
+}
+
+.dosisFont {
+    font-family: 'dosis', sans-serif;
+
+}
+
+.chiffresCarte {
+    font-size: 100px;
+}
+
+.textesCartes {
+    font-size: 40px;
+}
+
+.horaires {
+    font-weight: bold;
+}
+
+.interligne {
+        line-height: 1em;
+
+}
+
+
+
+
+/* <div class="row">
+                <div class="col-md-2">
+                <img src="intégration/assets/img/FaceBook_Logo.png" class="img-fluid" alt="le logo Facebook">
+                <img src="intégration/assets/img/Instagram-Logo.png" class="img-fluid" alt="le logo Instagram">
+                <img src="intégration/assets/img/twitter_logo.png" class="img-fluid" alt="le logo Twitter">
+            </div>--> /*

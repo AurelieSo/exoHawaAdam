@@ -1,0 +1,22 @@
+.Lobsterfont {
+font-family: 'Lobster',cursive;
+}
+
+.dosisFont { 
+font-family: 'Dosis', sans-serif;
+ }
+
+.bgcouleurPatrimoine{
+    background-color: #A7342F;
+}
+    
+.couleurCulture{
+    color: #35B3C2;
+}
+    
+.couleurLoisirs{
+    color: #AFCC34;
+}
+h2 {
+    font-size: 4vw;
+}
