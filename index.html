@@ -129,7 +129,7 @@
                     <h2 class="card-title text-white bgcouleurLoisirs">Loisirs</h2></div>
                     <div class="dosisFont">
                     <p class="card-text">Redécouvrez le territoire Noyonnais par ses sentiers pédestres et ses canaux...</p>
-                    <a href="#"  class="btn text-white m-4 bgcouleurLoisirs">Découvrir nos loisirs</a></div>
+                    <a href="#"  class="btn text-white m-4">Découvrir nos loisirs</a></div>
                 </div>
             </div>
         </div>
@@ -190,9 +190,10 @@
         <div class="bgfooter">
             <div class="container-fluid">
                 <div class="row align-items-center p-4">
-                    <div class="col-md-4">
+                    <div class="col-md-4 d-none d-md-block">
+                        <!-- pour  masquer en petite taille d-none d-md-block -->
                     <div class="LobsterFont">
-                        <p class="text-center text-white chiffresCarte ">18 km²</p>
+                        <p class="text-center text-white chiffresCarte interligne">18 km²</p>
                         <p class="text-center text-white textesCartes">de superficie</p> 
                     </div>
                     </div>
@@ -208,12 +209,16 @@
                     <!-- </div> -->
                     </div>
     
-                    <div class="col-md-4">
-                        <div class="LobsterFont">
-                        <p class="text-center text-white chiffresCarte interligne">13883</p>
-                        <p class="text-center text-white textesCartes interligne">habitants</p>
-                        <p class="text-center text-white mt-4 chiffresCarte interligne">42</p>
-                        <p class="text-center text-white textesCartes interligne">communes adhérentes </p>
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="d-flex  align-items-center flex-column LobsterFont">
+                            <div class="mb-5">
+                                <p class="text-center text-white chiffresCarte interligne">13883</p>
+                                <p class="text-center text-white textesCartes interligne">habitants</p>
+                            </div>
+                            <div class="mt-5">
+                                <p class="text-center text-white mt-4 chiffresCarte interligne">42</p>
+                                <p class="text-center text-white textesCartes interligne">communes <br>Sadhérentes </p>
+                            </div>
                     </div>                  
                     </div>
                 </div>
