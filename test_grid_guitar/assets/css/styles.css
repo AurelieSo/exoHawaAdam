@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.menuNav{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "accueil achat accessoires"
+    "lutherie event contact";
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    /* border: 1px solid black; */
+    position: relative;
+    line-height: 0;
+}
+
+.menuNav img{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    top: 0;
+    
+}
+    
+/* parametrage des blocs texte */
+.menuNav p{
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background-color: rgba(151, 13, 8, 0.753);
+
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* nom des boutons */
+.accueil{
+    grid-area: accueil;
+    position: relative;
+}
+
+.achat{
+    grid-area: achat;
+    position: relative;
+}
+
+.lutherie{
+    grid-area: lutherie;
+    position: relative;
+}
+
+.accessoires{
+    grid-area: accessoires;
+    position: relative;
+}
+.event{
+    grid-area: event;
+    position: relative;
+}
+
+.contact{
+    grid-area: contact;
+    position: relative;
+}
+
+@media screen and (max-width: 800px)
+{  
+    a{
+    font-size: 0.8em;
+    }
+
+.menuNav{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "accueil achat"
+    "accessoires lutherie"
+    "event contact";
+    margin-left: auto;
+    margin-right: auto;}
+
+}
