@@ -1,0 +1,51 @@
+.couleurPatrimoine{
+    color: #A7342F;
+}
+
+.couleurCulture{
+    color: #35B3C2;
+}
+
+.couleurLoisirs{
+    color: #AFCC34;
+}
+
+.LobsterFont {
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    background-color:  rgba(255, 255, 255, 0.7);
+    font-size: 2vw;
+    height: 60px;
+}
+
+#button {
+    font-size: 1.4vw;
+    height: 100%;
+    background: grey;
+
+}
+
+.headerImg{
+    background-image: url('../images/photoGenDesk.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+}
+
+
+
+.dosisFont {  
+    font-family: 'Dosis', sans-serif; }
+
+h1 {
+    font-size: 3.5vw;
+    text-shadow: 3px 3px 10px black;
+}
+
+.introText{
+    text-shadow: 2px 2px 6px black;
+    font-size: 2.2vw;
+   }
