@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+
+<html lang="fr" dir="ltr">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Office de tourisme de la ville de Noyon</title>
-        <meta name="description" content="">
+        <title>Culture Noyon</title>
+        <meta name="description" content="Page Culture de l'office de tourisme de Noyon">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
        
@@ -15,12 +17,11 @@
         <script src="https://kit.fontawesome.com/fe6dad5f6a.js" crossorigin="anonymous"></script>
     </head>
     <body>
- <!-- MENU AURE -->
+ <!--MENU AURE -->
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <nav class="navbar navbar-expand-lg  navbar-light fixed-top">
-                            
+                        <nav class="navbar navbar-expand-lg  navbar-light fixed-top" >
                             <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" 
                             data-target="#navbarMenu" 
                             aria-controls="navbarMenu" aria-expanded="false" 
@@ -32,14 +33,14 @@
                                 <ul class="navbar-nav LobsterFont">
                                     <li class="nav-item active mx-3">
                                         <!-- mx-3 margin gauche et droite en meme temps -->
-                                        <a class="nav-link text-secondary " href="index.html"><ins>Accueil</ins></a>
+                                        <a class="nav-link text-secondary " href="index.html">Accueil</a>
                                         <!-- mettre ins de chaque côté pour la page active -->
                                     </li>
                                     <li class="nav-item mx-3">
                                         <a class="nav-link couleurPatrimoine" href="pagePatrimoine.html">Patrimoine</a>
                                     </li>
                                     <li class="nav-item mx-3">
-                                        <a class="nav-link couleurCulture" href="pageCulture.html">Culture</a>
+                                        <a class="nav-link couleurCulture" href="pageCulture.html"><ins>Culture</ins></a>
                                     </li>
                                     <li class="nav-item mx-3">
                                         <a class="nav-link couleurLoisirs" href="pageLoisirs.html">Loisirs</a>
@@ -63,30 +64,13 @@
                 
             <header class="container-fluid d-flex">
                 <div class="row">
-                    <div class="text-center headerImg">
-                        <div class="m-5 dosisFont"><img src="assets/images/Noyon_OT_logoDesk.png " class="img-fluid" alt="paysage de la ville de Noyon" >
-                        
-                            <h1 class="text-white font-weight-bold p-4 dosisFont">Venez découvrir l’agglomération de Noyon,
-                                    riche de son patrimoine historique et culturel.</h1>
-                                    
-                            <div class="row">
-                                <div class="col-md-6 p-4 ">
-                                    <p class="text-white font-weight-bold mt-5 dosisFont introText">Situé au cœur d’un paysage forgé par l’agriculture et le Canal du Nord, Noyon offre un bien-être que beaucoup nous envient. Les visiteurs amoureux de nature paisible et de panoramas bucoliques apprécient de se promener dans les forêts alentours ou bien le long du canal.
-                                    La beauté de notre région attire également les artistes, et nombreux sont ceux qui posent leur chevalet sur le bord montée de la rue de l’église. 
-                                    </p>
-                                </div>
-
-                                <div class="col-md-6 p-4"> 
-                                    <p class="text-white font-weight-bold mt-5 dosisFont introText">Pour séjourner chez nous, profitez des gîtes et chambres d’hôtes et des restaurants du village. Vous trouverez tous les renseignements sur notre site.
-                                    </p>
-                                    <p class="text-white font-weight-bold mt-5 dosisFont introText">Téléchargez les brochures touristiques, découvrez les lieux d’accueil et d’informations, enfin téléchargez les plans des villages de notre région… 
-                                    </p>
-                                </div>
-
-                            </div>    
+                    <div class="text-center cultureHeaderImge">
+                        <img src="assets/images/Noyon_OT_logoDesk.png " class="img-fluid pt-5 " alt="le festival théâtre de rue" >
+                           <div class="justify-content-bottom"> <h1 class="text-white font-weight-bold p-4 m-5 dosisFont">Venez découvrir les expositions, les pièces de théâtre et les nombreuses animations.</h1>
+                              </div>
                          </div>
 
-                    </div>
+                   
                 </div>
             </header>
             
@@ -94,122 +78,91 @@
 
 
 
-    <!-- DEBUT ADAM -->
-<div class="container-fluid">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 text-center text-white bgcouleurCulture LobsterFont ">
+                <h2>Culture</h2>
+        </div>
+    </div>
+    
+
+
     <div class="row">
-        <div class="col-md-12">
-            <div class="LobsterFont">
-            <h3 class="text-center m-5 text-secondary">Découvrir Noyon ...</h3></div>
+        <div class="col-md-12 mt-3 text-center">
+            <p>Vous souhaitez vous initier à de nouvelles activités, réveiller un de vos talents cachés ou tout simplement approfondir une passion personnelle ?  Quels que soient vos goûts et vos envies, votre âge et votre quartier, Noyon vous offre mille et une possibilités de vous épanouir.</p> 
         </div>
     </div>
-    <div class="row justify-content-around">
-        <div class="stylecard">
-        <div class="card-deck m-5">
-            <div class="card text-center shadow p-1 bg-white">
-                <div class="styletext">
-                <img class="card-img-top" height="50%" src="assets/images//abbaye.png" alt="card image patrimoine">
-                <div class="card-body">
-                    <div class="LobsterFont">
-                    <h2 class="card-title text-white bgcouleurPatrimoine">Patrimoine</h2></div>
-                    <div class="dosisFont">
-                    <p class="card-text">Visitez Noyon à travers ses monuments chargés d'histoires. Des visites guidées sont organisées chaque mois...</p>
-                    <a href="#" class="btn text-white bgcouleurPatrimoine">Découvrir notre patrimoine</a></div>
-                </div>
-                </div>
+</div>
+
+
+<!-- PREMIER BLOC -->
+<div class="container-fluid">
+    <h3 class="text-white text-center px-4 mt-5 couleurCulture LobsterFont">Exposition</h3>
+</div>
+
+<div class="container tailleImg ">
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="assets/images/JosephFelixBouchorTableauSquare.png" class="card-img" alt="Découvrez les équipements sportifs">
             </div>
-        
-        
-            <div class="card text-center shadow p-1 bg-white">
-                <div class="styletext">
-                <img class="card-img-top"  height="50%" src="assets/images//musee.png" alt="card image musee">
-                <div class="card-body">
-                    <div class="LobsterFont">
-                    <h2 class="card-title text-white bgcouleurCulture">Culture</h2></div>
-                    <div class="dosisFont">
-                    <p class="card-text">Appréciez les nombreux évènements culturels  mis en place quotidiennement au sein de l'agglomération...</p>
-                    <a href="#" class="btn text-white bgcouleurCulture">Découvrir notre culture</a></div>
-                </div>
-                </div>
+        <div class="col-md-8">
+            <div class="card-body">
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-        
-        
-            <div class="card text-center shadow p-1 bg-white">
-                <div class="styletext">
-                <img class="card-img-top" height="50%" src="assets/images/parc.png" alt="card image parc">
-                <div class="card-body">
-                    <div class="LobsterFont">
-                    <h2 class="card-title text-white bgcouleurLoisirs">Loisirs</h2></div>
-                    <div class="dosisFont">
-                    <p class="card-text">Redécouvrez le territoire Noyonnais par ses sentiers pédestres et ses canaux...</p>
-                    <a href="#"  class="btn text-white m-4 bgcouleurLoisirs">Découvrir nos loisirs</a></div>
-                </div>
-                </div>
             </div>
         </div>
-        </div>
-        </div>
-        
     </div>
-        <div class="row bg-light">
-        <div class="col-md-12">
-            <div class="LobsterFont">
-            <h3 class="text-center m-5 text-secondary">Les dernières actus</h3></div>
-        </div>
-        </div>
-        <div class="container-fluid bg-light">
-         <div class="card-deck p-3">
-            <div class="card text-center shadow p-3 bg-white">
-                <div class="styledeck">
-             <img class="card-img-top" height="82%" src="assets/images//covid.png" alt="card image covid">
-             <div class="card-body">
-                <div class="dosisFont">
-                 <p class="card-title">Covid-19</p>
-                 <p class="card-text">Le directeur de l'école élémentaire Jules Ferry durcit les règles.</p></div>
-             </div> 
-                </div>  
-            </div>
-        
-    
-        
-            <div class="card text-center shadow p-3 bg-white">
-                <div class="styletext">
-                <img class="card-img-top" height="70%" src="assets/images/travaux.png" alt="card image travaux">
-                <div class="card-body">
-                    <div class="dosisFont">
-                    <p class="card-title">L'avenue Jean Jaurès fait peau neuve</p>
-                    <p class="card-text">Après plusieurs mois de misse en projet, les travaux débutent enfin.</p></div>
-                </div>
-                </div>
-            </div>
-           
-            
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center p-4 bg-light">
-                <button type="button" class="btn btn-warning">Voir plus d'actus</button>
+</div>
 
-        
+<!-- DEUXIEME BLOC -->
+
+<div class="container-fluid">
+    <h3 class="text-white text-center px-4 mt-5 couleurCulture LobsterFont">Théâtre</h3>
+</div>
+
+<div class="container tailleImg">
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="assets/images/theatreNoyonsSquare.jpg" class="card-img" alt="Théâtre du Chevalet">
+            </div>
+        <div class="col-md-8">
+            <div class="card-body">
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
             </div>
         </div>
-        
+    </div>
+</div>
 
-        
-    
-        <!-- </div> -->
-    
-    
-        <!-- FIN ADAM -->
+<!-- TROISIEME BLOC -->
 
+<div class="container-fluid">
+    <h3 class="text-white text-center px-4 mt-5 couleurCulture LobsterFont">Animations</h3>
+</div>
 
-
+<div class="container tailleImg ">
+    <div class="card mb-3">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+            <img src="assets/images/cathedraleSquare.png" class="card-img" alt="Visite de la cathédrale de nuit">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
  <!--FOOTER HAWA-->
 
         <!--PARTIE MAPS-->
         
         <div class="bgfooter">
             <div class="container-fluid">
-                <div class="row align-items-center p-4">
+                <div class="row align-items-center p-4 mt-5">
                     <div class="col-md-4 d-none d-md-block">
                         <!-- pour  masquer en petite taille d-none d-md-block -->
                     <div class="LobsterFont">
@@ -219,14 +172,12 @@
                     </div>
     
                     <div class="col-md-4">
-                    <!-- <div class="row"> -->
                         <div class="LobsterFont">
                             <h2 class="text-center text-white">Où nous trouver?</h2>
                         </div>
                         <div class="row text-center">
                             <img src="assets/images/carte.png" class="img-fluid" alt="maps">
                         </div>
-                   
                     </div>
     
                     <div class="col-md-4 d-none d-md-block">
@@ -318,7 +269,10 @@
                 </div>
              </div>
         </div>
-   
+    <!-- </div> -->
+    
+                     
+        
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     </body>

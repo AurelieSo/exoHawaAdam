@@ -13,7 +13,22 @@
 .LobsterFont {
     font-family: 'Lobster', cursive;
 }
+.bgcouleurPatrimoine{
+        background-color: #A7342F;
+}
+       
+   
+.bgcouleurCulture{
+        background-color: #35B3C2;
+}
 
+.bgcouleurLoisirs{
+        background-color:#AFCC34 ;
+}
+
+.bgfooter {
+    background-color: #01B5D6 ; 
+}
 nav {
     background-color:  rgba(255, 255, 255, 0.7);
     font-size: 2vw;
@@ -31,15 +46,15 @@ nav {
     background-image: url('../images/photoGenDesk.png');
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-position: bottom;
 }
 
-.headerImage {
-    background-image: url('../images/imagetete.png');
-    background-size:cover ;
+.cultureHeaderImge {
+    background-image: url('../images/cultureHeader.png');
+    background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 800px;
     background-position: bottom;
 }
 
@@ -50,19 +65,23 @@ h1 {
     font-size: 3.5vw;
     text-shadow: 3px 3px 10px black;
 }
+h2 {
+    font-size: 4vw;
+    text-shadow: 3px 3px 10px black;
+}
+
+h3{
+    font-size: 3vw;
+}
 
 .introText{
     text-shadow: 2px 2px 6px black;
     font-size: 2.2vw;
    }
 
-
-/* partie Hawa */
-.bgfooter {
-    background-color: #01B5D6 ; 
-
+.cardTest{
+    max-height: 150px;
 }
-
 
 .chiffresCarte {
     font-size: 6vw;
@@ -73,27 +92,7 @@ h1 {
 }
 
 .interligne {
-        line-height: 3vw;
-
-}
-
-/* partie Adam */
-    
-.bgcouleurPatrimoine{
-        background-color: #A7342F;
-}
-        
-h2 {
-        font-size: 4vw;
-}
-
-   
-.bgcouleurCulture{
-        background-color: #35B3C2;
-}
-
-.bgcouleurLoisirs{
-        background-color:#AFCC34 ;
+    line-height: 3vw;
 
 }
 
@@ -107,5 +106,43 @@ h2 {
 .styledeck {
     height: 30rem;
 }
- 
- 
+
+.tailleImg {
+    width: 60%;
+}
+.testButton{
+    width: 100%;
+}
+@media screen and (max-width: 600px){
+    ul {
+        background-color:  rgba(255, 255, 255, 0.842);
+        font-size: 5vw;
+    }
+
+    .cultureHeaderImge {
+        max-height: 400px;
+        background-position: top;
+        width: 100%;
+    }
+    h1{
+        font-size: 5vw;
+    }
+
+    h2{
+        font-size: 8vw;
+    }
+
+    h3{
+        font-size: 6vw;
+    }
+
+    .introText{
+        font-size: 5vw;
+    }
+
+    .footerText li{
+    font-size: 4vw;
+}
+
+}
+
