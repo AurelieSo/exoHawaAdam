@@ -1,13 +1,13 @@
 .couleurPatrimoine{
-    color: #A7342F;
+    color: #A7342F !important;
 }
 
 .couleurCulture{
-    color: #35B3C2;
+    color: #35B3C2 !important;
 }
 
 .couleurLoisirs{
-    color: #AFCC34;
+    color: #AFCC34 !important;
 }
 
 .LobsterFont {

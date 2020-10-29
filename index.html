@@ -19,32 +19,36 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <nav class="navbar  navbar-inverse navbar-expand-lg fixed-top" z-index="2">
+                        <nav class="navbar navbar-expand-lg  navbar-light fixed-top" z-index="2">
+                            
                             <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" 
                             data-target="#navbarMenu" 
                             aria-controls="navbarMenu" aria-expanded="false" 
                             aria-label="Toggle navigation">
                                 <i class="icon fa fa-bars" ></i>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarMenu">
-                                <ul class="navbar-nav mr-auto LobsterFont">
-                                    <li class="nav-item active pr-5">
-                                        <a class="nav-link text-secondary " href="#">Accueil</a>
+                            <div class="collapse navbar-collapse flex-column" id="navbarMenu">
+                        
+                                <ul class="navbar-nav LobsterFont">
+                                    <li class="nav-item active mx-3">
+                                        <!-- mx-3 margin gauche et droite en meme temps -->
+                                        <a class="nav-link text-secondary " href="#"><ins>Accueil</ins></a>
+                                        <!-- mettre ins de chaque côté pour la page active -->
                                     </li>
-                                    <li class="nav-item pr-5">
+                                    <li class="nav-item mx-3">
                                         <a class="nav-link couleurPatrimoine" href="#">Patrimoine</a>
                                     </li>
-                                    <li class="nav-item pr-5">
+                                    <li class="nav-item mx-3">
                                         <a class="nav-link couleurCulture" href="#">Culture</a>
                                     </li>
-                                    <li class="nav-item pr-5">
+                                    <li class="nav-item mx-3">
                                         <a class="nav-link couleurLoisirs" href="#">Loisirs</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-secondary" id="contact" href="#">Contactez-nous</a>
-                                    </li class="d-flex justify-items-end">
+                                    <li class="nav-item mx-3">
+                                        <a class="nav-link text-secondary" href="#">Contactez-nous</a>
+                                    </li>
                                 
-                                       <li><form class="navbar-right form-inline my-2 my-lg-0 pl-5">
+                                       <li><form class="navbar form-inline my-2 my-lg-0 pl-5">
                                         <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Rechercher">
                                         <button class="btn btn-outline-secondary my-2 my-sm-0 txt-dark bg-light" type="submit" id="button">Rechercher</button>
                                         </form>
@@ -131,7 +135,7 @@
                     <h2 class="card-title text-white bgcouleurLoisirs">Loisirs</h2></div>
                     <div class="dosisFont">
                     <p class="card-text">Redécouvrez le territoire Noyonnais par ses sentiers pédestres et ses canaux...</p>
-                    <a href="#"  class="btn text-white m-4">Découvrir nos loisirs</a></div>
+                    <a href="#"  class="btn text-white m-4 bgcouleurLoisirs">Découvrir nos loisirs</a></div>
                 </div>
             </div>
         </div>
