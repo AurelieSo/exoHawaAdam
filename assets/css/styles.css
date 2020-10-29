@@ -35,6 +35,13 @@ nav {
     background-position: bottom;
 }
 
+.headerImage {
+    background-image: url('../images/imagetete.png');
+    background-size:cover ;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+}
 
 .dosisFont {  
     font-family: 'Dosis', sans-serif; }
@@ -72,23 +79,33 @@ h1 {
 
 /* partie Adam */
     
-    .bgcouleurPatrimoine{
+.bgcouleurPatrimoine{
         background-color: #A7342F;
-    }
+}
         
-    h2 {
+h2 {
         font-size: 4vw;
-    }
+}
 
-    /* modif aure */
-    .bgcouleurCulture{
+   
+.bgcouleurCulture{
         background-color: #35B3C2;
-    }
+}
 
-    .bgcouleurLoisirs{
+.bgcouleurLoisirs{
         background-color:#AFCC34 ;
 
-    }
+}
 
+.stylecard {
+    width: 80%;
+}
+
+.styletext {
+    height: 35rem;
+}
+.styledeck {
+    height: 30rem;
+}
  
  
