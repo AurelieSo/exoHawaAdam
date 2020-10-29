@@ -110,12 +110,10 @@ h3{
 .tailleImg {
     width: 60%;
 }
-.testButton{
-    width: 100%;
-}
+
 @media screen and (max-width: 600px){
     ul {
-        background-color:  rgba(255, 255, 255, 0.842);
+        background-color: rgba(255, 255, 255, 0.842);
         font-size: 5vw;
     }
 
@@ -142,7 +140,8 @@ h3{
 
     .footerText li{
     font-size: 4vw;
-}
+    }
+    
 
 }
 
