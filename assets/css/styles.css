@@ -57,7 +57,21 @@ nav {
     height: 800px;
     background-position: bottom;
 }
+.loisirsImg{
+    background-image: url('../images/loisirs.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-position: bottom;
+}
 
+.patrimoineHeaderImage {
+    background-image: url('../images/imagetete.png');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background-position: bottom;
+}
 .dosisFont {  
     font-family: 'Dosis', sans-serif; }
 
